@@ -5,6 +5,7 @@ on:
     - cron: '*/40 * * * *'
   watch:
     types: started
+  workflow_dispatch:
 jobs:
   Run:
     runs-on: ubuntu-latest
