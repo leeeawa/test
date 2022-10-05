@@ -1,6 +1,6 @@
 name: 'Test' 
 on:
-#  push: 
+  push: 
   schedule:
     - cron: '*/40 * * * *'
   watch:
